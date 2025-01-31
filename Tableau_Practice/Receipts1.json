@@ -1,0 +1,1043 @@
+{
+"SELECT  CONCAT(e.FirstName, ' ', e.LastName) as Employee, c.City, w.product_name, w.price ,o.units, o.Date\nFROM Myshop.orders o\njoin Myshop.client c \non c.clientID = o.clientID \nJOIN Myshop.employee e \non e.employeeID = o.SellerID \nJOIN  Myshop.wharehouse w \non w.productID = o.productID": [
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 200,
+		"Date" : "2024-12-05"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 740,
+		"Date" : "2024-06-12"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Houston",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 1590,
+		"Date" : "2024-09-22"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Atlanta",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 1640,
+		"Date" : "2024-07-11"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 200,
+		"Date" : "2024-09-25"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 570,
+		"Date" : "2024-02-08"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 1210,
+		"Date" : "2024-05-15"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 940,
+		"Date" : "2024-07-28"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 540,
+		"Date" : "2024-10-18"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 1760,
+		"Date" : "2024-04-20"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 1010,
+		"Date" : "2024-03-01"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 320,
+		"Date" : "2023-12-19"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 1590,
+		"Date" : "2024-05-15"
+	},
+	{
+		"Employee" : "Griffin Jordan",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 760,
+		"Date" : "2023-12-30"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 570,
+		"Date" : "2024-03-29"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Chicago",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 1210,
+		"Date" : "2024-09-06"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "New York",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 420,
+		"Date" : "2024-08-23"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Los Angeles",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 150,
+		"Date" : "2024-07-17"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Denver",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 280,
+		"Date" : "2024-08-06"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 450,
+		"Date" : "2024-11-28"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1790,
+		"Date" : "2024-08-04"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 1120,
+		"Date" : "2024-04-09"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 290,
+		"Date" : "2024-08-17"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1640,
+		"Date" : "2024-05-13"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 730,
+		"Date" : "2023-12-25"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 150,
+		"Date" : "2024-11-09"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 350,
+		"Date" : "2024-05-20"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 1380,
+		"Date" : "2024-05-20"
+	},
+	{
+		"Employee" : "Jerry Strippoli",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 900,
+		"Date" : "2024-10-25"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 1230,
+		"Date" : "2024-06-18"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "New York",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 230,
+		"Date" : "2024-10-12"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Los Angeles",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 760,
+		"Date" : "2024-12-15"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Houston",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 730,
+		"Date" : "2024-10-25"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Atlanta",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1610,
+		"Date" : "2024-07-11"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 620,
+		"Date" : "2023-12-17"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1750,
+		"Date" : "2024-05-25"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 1110,
+		"Date" : "2024-02-22"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 280,
+		"Date" : "2024-07-26"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1610,
+		"Date" : "2024-06-10"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 720,
+		"Date" : "2024-07-21"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 400,
+		"Date" : "2024-06-23"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 1030,
+		"Date" : "2024-10-06"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 890,
+		"Date" : "2024-06-09"
+	},
+	{
+		"Employee" : "Nicholas Napoli",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 600,
+		"Date" : "2024-12-07"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 890,
+		"Date" : "2024-08-18"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "San Francisco",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 780,
+		"Date" : "2024-08-06"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "San Francisco",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 1330,
+		"Date" : "2024-05-20"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "New York",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 350,
+		"Date" : "2024-04-21"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Houston",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 720,
+		"Date" : "2024-11-18"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 1230,
+		"Date" : "2024-05-25"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 940,
+		"Date" : "2024-03-25"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 590,
+		"Date" : "2024-01-02"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 1320,
+		"Date" : "2024-05-13"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1000,
+		"Date" : "2024-11-06"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 870,
+		"Date" : "2024-03-11"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 420,
+		"Date" : "2024-06-15"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 1730,
+		"Date" : "2024-09-26"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 740,
+		"Date" : "2024-05-13"
+	},
+	{
+		"Employee" : "Patrick Yeates",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 860,
+		"Date" : "2024-08-26"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 450,
+		"Date" : "2024-10-22"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Austin",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 940,
+		"Date" : "2024-08-30"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Chicago",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 990,
+		"Date" : "2024-01-13"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "San Francisco",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1380,
+		"Date" : "2024-12-07"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Los Angeles",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 400,
+		"Date" : "2024-11-13"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 350,
+		"Date" : "2024-03-17"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1400,
+		"Date" : "2024-02-16"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 820,
+		"Date" : "2024-01-19"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 590,
+		"Date" : "2024-11-30"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1080,
+		"Date" : "2024-06-17"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 640,
+		"Date" : "2024-08-05"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 1440,
+		"Date" : "2024-08-20"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 980,
+		"Date" : "2024-06-08"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 730,
+		"Date" : "2024-04-22"
+	},
+	{
+		"Employee" : "Nicholas Gonzalez",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 1210,
+		"Date" : "2024-04-11"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 1700,
+		"Date" : "2024-03-07"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Seattle",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 540,
+		"Date" : "2024-04-22"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Denver",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 290,
+		"Date" : "2024-04-14"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Boston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 1110,
+		"Date" : "2024-03-01"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 1010,
+		"Date" : "2024-07-03"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1220,
+		"Date" : "2024-09-25"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 450,
+		"Date" : "2024-03-10"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 690,
+		"Date" : "2024-10-15"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1100,
+		"Date" : "2024-05-30"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 760,
+		"Date" : "2024-09-26"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 1420,
+		"Date" : "2024-06-26"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 890,
+		"Date" : "2024-04-03"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 600,
+		"Date" : "2024-11-13"
+	},
+	{
+		"Employee" : "Shane Lawless",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 830,
+		"Date" : "2024-08-10"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 1010,
+		"Date" : "2024-07-12"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Boston",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 1760,
+		"Date" : "2024-08-03"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Austin",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 610,
+		"Date" : "2024-01-21"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Chicago",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 900,
+		"Date" : "2024-10-18"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 1340,
+		"Date" : "2024-06-23"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1780,
+		"Date" : "2024-08-10"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 1100,
+		"Date" : "2024-08-24"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 390,
+		"Date" : "2024-06-14"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1600,
+		"Date" : "2024-05-12"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 700,
+		"Date" : "2024-06-30"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 420,
+		"Date" : "2024-06-08"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 980,
+		"Date" : "2024-09-22"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 740,
+		"Date" : "2024-05-14"
+	},
+	{
+		"Employee" : "Aidan Murphy",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 560,
+		"Date" : "2024-09-14"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 300,
+		"Date" : "2024-02-22"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Atlanta",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 320,
+		"Date" : "2024-07-28"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Seattle",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 1790,
+		"Date" : "2024-03-22"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Austin",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 620,
+		"Date" : "2024-03-21"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 1340,
+		"Date" : "2024-06-14"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1780,
+		"Date" : "2024-03-10"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 1190,
+		"Date" : "2024-08-19"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 590,
+		"Date" : "2024-08-20"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1500,
+		"Date" : "2024-04-28"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 640,
+		"Date" : "2024-09-30"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 1420,
+		"Date" : "2024-10-24"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 890,
+		"Date" : "2024-11-09"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 980,
+		"Date" : "2024-11-22"
+	},
+	{
+		"Employee" : "John Lermi",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 830,
+		"Date" : "2024-12-06"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 1560,
+		"Date" : "2024-03-02"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Denver",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 1010,
+		"Date" : "2024-01-22"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Boston",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 1120,
+		"Date" : "2023-12-25"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Seattle",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 1750,
+		"Date" : "2024-10-04"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "New York",
+		"product_name" : "Toy Car",
+		"price" : 12.99,
+		"units" : 990,
+		"Date" : "2024-01-07"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "San Francisco",
+		"product_name" : "Doll House",
+		"price" : 35.49,
+		"units" : 1150,
+		"Date" : "2024-05-02"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Chicago",
+		"product_name" : "Building Blocks",
+		"price" : 18.75,
+		"units" : 450,
+		"Date" : "2024-09-01"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Austin",
+		"product_name" : "Puzzle Game",
+		"price" : 9.89,
+		"units" : 590,
+		"Date" : "2024-05-15"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Seattle",
+		"product_name" : "Action Figure",
+		"price" : 14.99,
+		"units" : 1600,
+		"Date" : "2024-11-22"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Boston",
+		"product_name" : "Stuffed Animal",
+		"price" : 22.45,
+		"units" : 800,
+		"Date" : "2024-05-23"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Denver",
+		"product_name" : "Board Game",
+		"price" : 29.99,
+		"units" : 420,
+		"Date" : "2024-04-28"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Atlanta",
+		"product_name" : "Toy Train",
+		"price" : 19.50,
+		"units" : 1730,
+		"Date" : "2024-06-27"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Houston",
+		"product_name" : "RC Helicopter",
+		"price" : 49.99,
+		"units" : 980,
+		"Date" : "2024-07-03"
+	},
+	{
+		"Employee" : "Andrew Tracy",
+		"City" : "Los Angeles",
+		"product_name" : "Coloring Book",
+		"price" : 5.25,
+		"units" : 530,
+		"Date" : "2024-02-06"
+	}
+]}

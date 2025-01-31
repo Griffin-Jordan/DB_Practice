@@ -1,0 +1,453 @@
+{
+"select CONCAT(e.FirstName, ' ', e.LastName) as seller, w.product_name as product, ROUND(SUM(w.price*o.units), 2) as revenue\nfrom Myshop.orders o \njoin Myshop.employee e on e.employeeID = o.SellerID \njoin Myshop.wharehouse w on w.productID = o.productID \nGroup BY e.employeeID, w.productID \norder by product, revenue DESC": [
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Action Figure",
+		"revenue" : 72551.60
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Action Figure",
+		"revenue" : 24583.60
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Action Figure",
+		"revenue" : 24133.90
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Action Figure",
+		"revenue" : 23984.00
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Action Figure",
+		"revenue" : 23984.00
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Action Figure",
+		"revenue" : 22485.00
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Action Figure",
+		"revenue" : 16489.00
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Action Figure",
+		"revenue" : 14990.00
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Action Figure",
+		"revenue" : 8094.60
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Board Game",
+		"revenue" : 114861.70
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Board Game",
+		"revenue" : 95668.10
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Board Game",
+		"revenue" : 43185.60
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Board Game",
+		"revenue" : 42585.80
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Board Game",
+		"revenue" : 30289.90
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Board Game",
+		"revenue" : 12595.80
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Board Game",
+		"revenue" : 12595.80
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Board Game",
+		"revenue" : 11996.00
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Board Game",
+		"revenue" : 4498.50
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Building Blocks",
+		"revenue" : 43875.00
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Building Blocks",
+		"revenue" : 39187.50
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Building Blocks",
+		"revenue" : 31687.50
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Building Blocks",
+		"revenue" : 22687.50
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Building Blocks",
+		"revenue" : 22312.50
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Building Blocks",
+		"revenue" : 20625.00
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Building Blocks",
+		"revenue" : 15375.00
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Building Blocks",
+		"revenue" : 8437.50
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Building Blocks",
+		"revenue" : 8437.50
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Coloring Book",
+		"revenue" : 7875.00
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Coloring Book",
+		"revenue" : 6352.50
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Coloring Book",
+		"revenue" : 4725.00
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Coloring Book",
+		"revenue" : 4515.00
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Coloring Book",
+		"revenue" : 4357.50
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Coloring Book",
+		"revenue" : 4357.50
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Coloring Book",
+		"revenue" : 3150.00
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Coloring Book",
+		"revenue" : 2940.00
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Coloring Book",
+		"revenue" : 2782.50
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Doll House",
+		"revenue" : 180289.20
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Doll House",
+		"revenue" : 83756.40
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Doll House",
+		"revenue" : 63172.20
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Doll House",
+		"revenue" : 63172.20
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Doll House",
+		"revenue" : 49686.00
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Doll House",
+		"revenue" : 43297.80
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Doll House",
+		"revenue" : 40813.50
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Doll House",
+		"revenue" : 33360.60
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Doll House",
+		"revenue" : 20229.30
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Puzzle Game",
+		"revenue" : 38472.10
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Puzzle Game",
+		"revenue" : 14835.00
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Puzzle Game",
+		"revenue" : 9791.10
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Puzzle Game",
+		"revenue" : 9296.60
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Puzzle Game",
+		"revenue" : 6824.10
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Puzzle Game",
+		"revenue" : 5835.10
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Puzzle Game",
+		"revenue" : 5835.10
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Puzzle Game",
+		"revenue" : 3857.10
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Puzzle Game",
+		"revenue" : 2769.20
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "RC Helicopter",
+		"revenue" : 126974.60
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "RC Helicopter",
+		"revenue" : 99980.00
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "RC Helicopter",
+		"revenue" : 79484.10
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "RC Helicopter",
+		"revenue" : 68986.20
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "RC Helicopter",
+		"revenue" : 64987.00
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "RC Helicopter",
+		"revenue" : 44491.10
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "RC Helicopter",
+		"revenue" : 36992.60
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "RC Helicopter",
+		"revenue" : 36992.60
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "RC Helicopter",
+		"revenue" : 36492.70
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Stuffed Animal",
+		"revenue" : 67350.00
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Stuffed Animal",
+		"revenue" : 49614.50
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Stuffed Animal",
+		"revenue" : 39512.00
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Stuffed Animal",
+		"revenue" : 19531.50
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Stuffed Animal",
+		"revenue" : 17960.00
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Stuffed Animal",
+		"revenue" : 16388.50
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Stuffed Animal",
+		"revenue" : 16164.00
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Stuffed Animal",
+		"revenue" : 14368.00
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Stuffed Animal",
+		"revenue" : 14368.00
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Toy Car",
+		"revenue" : 47153.70
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Toy Car",
+		"revenue" : 17406.60
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Toy Car",
+		"revenue" : 17406.60
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Toy Car",
+		"revenue" : 15977.70
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Toy Car",
+		"revenue" : 13119.90
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Toy Car",
+		"revenue" : 12860.10
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Toy Car",
+		"revenue" : 9482.70
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Toy Car",
+		"revenue" : 8053.80
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Toy Car",
+		"revenue" : 4546.50
+	},
+	{
+		"seller" : "Andrew Tracy",
+		"product" : "Toy Train",
+		"revenue" : 109395.00
+	},
+	{
+		"seller" : "Patrick Yeates",
+		"product" : "Toy Train",
+		"revenue" : 33735.00
+	},
+	{
+		"seller" : "John Lermi",
+		"product" : "Toy Train",
+		"revenue" : 23205.00
+	},
+	{
+		"seller" : "Nicholas Napoli",
+		"product" : "Toy Train",
+		"revenue" : 20085.00
+	},
+	{
+		"seller" : "Nicholas Gonzalez",
+		"product" : "Toy Train",
+		"revenue" : 19110.00
+	},
+	{
+		"seller" : "Aidan Murphy",
+		"product" : "Toy Train",
+		"revenue" : 19110.00
+	},
+	{
+		"seller" : "Shane Lawless",
+		"product" : "Toy Train",
+		"revenue" : 17355.00
+	},
+	{
+		"seller" : "Jerry Strippoli",
+		"product" : "Toy Train",
+		"revenue" : 6825.00
+	},
+	{
+		"seller" : "Griffin Jordan",
+		"product" : "Toy Train",
+		"revenue" : 6240.00
+	}
+]}
