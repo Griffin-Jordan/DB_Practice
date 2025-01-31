@@ -5,6 +5,7 @@ into the company. Below that is an image which gives a basic showing of the dash
 
 https://public.tableau.com/app/profile/griffin.jordan/viz/Dashboard_Practice1_GriffinJordan/Dashboard1?publish=yes
 
+
 <br />
 
 <img width="1440" alt="Screenshot 2025-01-31 at 9 38 05 AM" src="https://github.com/user-attachments/assets/3c450f5e-5cb9-4043-87e1-70da4a72cb75" />
