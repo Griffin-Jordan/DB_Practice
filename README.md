@@ -6,7 +6,7 @@ This is an exercise to learn about building a DB and creating tables with Primar
 A description of the tables is as follows:
 
 
-
+<br />
 
 **client**:
 
@@ -19,7 +19,7 @@ A description of the tables is as follows:
   Address(String): The address to the company where the products will shipped.
 
 
-  
+  <br />
 
 **employee**:
 
@@ -32,7 +32,7 @@ A description of the tables is as follows:
   Age(INT): Employees age.
 
 
-  
+  <br />
 
 **wharehouse**:
 
@@ -43,7 +43,7 @@ A description of the tables is as follows:
   price(float): the price of the toy.
 
 
-  
+  <br />
 
 **orders**:
 
